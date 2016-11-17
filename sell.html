@@ -1,0 +1,94 @@
+ <!DOCTYPE html>
+<html>
+<head>
+
+<title>Sell Books</title>
+</head>
+
+    <style>
+    form {
+    border: 3px solid #f1f1f1;
+}
+
+input[type=text], input[type=password] {
+    
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.container {
+    padding: 16px;
+}
+
+
+    
+    
+    </style>
+    
+    
+<body>
+
+    <div class="register">
+<h2 class="logg" style="text-align:center">Book Sell</h2>
+
+<form action="selling.php" method="post" style="text-align:center">
+    <label><b>Name of the seller: &nbsp;</b></label>
+    <input type="text" placeholder="Sellers name" name="name" required>
+<br>
+
+
+    <label><b>Book name: &nbsp;</b></label>
+    <input type="text" placeholder="Book name" name="bname" required>
+<br>
+    <label><b>Author Name &nbsp;</b></label>
+    <input type="text" placeholder="Author name" name="author" required>
+    <br>    
+
+        <label><b>Publication: &nbsp;</b></label>
+    <input type="text" placeholder="Publication" name="public" required>
+<br>
+        <label><b>Year of release: &nbsp;</b></label>
+    <input type="text" placeholder="1990" name="year" required>
+    <br>
+    <label><b>Book condition: &nbsp;</b></label>
+    <input type="text" placeholder="good" name="cond">
+<br>
+        <label><b>Comment: &nbsp;</b></label>
+    <input type="text" placeholder="comment" name="comment">
+    <br>
+    <label><b>Contact no.: &nbsp;</b></label>
+    <input type="text" placeholder="Phone no." name="phone" required>
+<br>
+
+    
+    <div class="container">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button type="submit">SELL</button>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      <button type="reset" class="cancelbtn" >Cancel</button>
+
+  </div>
+</form>
+</div>    
+    
+</body>
+
+</html> 
